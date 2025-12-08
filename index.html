@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" id="Home-html">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nav-Bar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="portfolio-queries.css">
+</head>
+
+<body id="body">
+  <nav>
+    <div class="logo">SureDev</div>
+    <ul class="nav-links">
+      <li><a href="#Home-html">Home</a></li>
+      <li><a href="#Skills-id">Services</a></li>
+      <li><a href="#body">Portfolio</a></li>
+      <li><a href="#About-us">About</a></li>
+    </ul>
+    <div class="call-btn">
+      Book a call
+    </div>
+  </nav>
+  <!-- First body -->
+
+
+  <div class="container1">
+    <!-- Left side -->
+    <div class="left">
+      <p class="greeting">Hey, I'm SureDev <span>🇮🇹</span></p>
+
+      <h1 class="name">Frontend</h1>
+      <h1 class="title">Developer</h1>
+
+      <p class="description">
+        I'm a frontend developer based in Nigeria. I'll help you build beautiful websites your users will love.
+      </p>
+
+      <div class="buttons">
+        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+        <a href="#projects" class="btn btn-secondary">Browse Projects</a>
+      </div>
+    </div>
+
+    <!-- Right side - Photo -->
+    <div class="right">
+      <div class="photo-container">
+        <img src="image/my-image.jpg" alt="Luca – Frontend Developer" class="photo" />
+      </div>
+    </div>
+  </div>
+
+  <!-- second-- body -->
+
+  <div class="about-container">
+  </div>
+  <section class="about-section">
+    <div class="about-container">
+      <!-- Heading + Description -->
+      <div class="about-text">
+        <h2 id="About-us">About me<span class="purple-dot">.</span></h2>
+        <p>
+          <span class="purple-bar"></span>
+          Developing beautiful and functional websites is what I love doing, and that's why I give my all in every new
+          challenge.
+        </p>
+      </div>
+
+      <!-- Stack & Special Place -->
+
+
+      <div class="about-content">
+        <!-- My Stack -->
+        <div class="stack">
+          <h3>My Stack.</h3>
+          <div class="tags">
+            <span class="tag"><span class="star">Star</span> Webflow Design</span>
+            <span class="tag"><span class="star">Star</span> UI/UX Expertise</span>
+            <span class="tag"><span class="star">Star</span> HTML & CSS</span>
+            <span class="tag"><span class="star">Star</span> JavaScript Proficiency</span>
+            <span class="tag"><span class="star">Star</span> Team Player</span>
+            <span class="tag"><span class="star">Star</span> Keeping Abreast of Trends</span>
+          </div>
+        </div>
+
+        <!-- My Special Place -->
+        <div class="special-place">
+          <h3>My Special Place.</h3>
+          <div class="globe-wrapper">
+            <img src="image/second-nigeria globe.webp" alt="Nigeria highlighted on globe" class="globe" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience-section">
+  <div class="experience-container">
+    <h2 class="section-title">Experience<span class="purple-dot">.</span></h2>
+
+    <div class="timeline">
+      <!-- Apple -->
+      <div class="job">
+        <div class="job-company ">Apple</div>
+        <div class="job-details">
+          <h3 id="First-H3">Engineer @ Apple <span class="date">May 2018 – Present</span></h3>
+          <ul class="achievements">
+            <li>Developed and shipped highly interactive web applications for Apple Music using Ember.js</li>
+            <li>Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs</li>
+            <li>Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Microsoft -->
+      <div class="job">
+        <div class="job-company">Microsoft</div>
+        <div class="job-details">
+          <h3 id="First-H3">Senior Frontend Engineer <span class="date">2021 – 2022</span></h3>
+          <ul class="achievements">
+            <li>Led the frontend architecture for Azure Portal redesign</li>
+            <li>Improved performance by 60% using React + TypeScript best practices</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Spotify -->
+      <div class="job">
+        <div class="job-company">Spotify</div>
+        <div class="job-details">
+          <h3 id="First-H3">Frontend Developer <span class="date">2019 – 2021</span></h3>
+          <ul class="achievements">
+            <li>Built real-time collaborative playlist features</li>
+            <li>Designed and implemented the new artist dashboard</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- The footer -->
+
+<section class="skills-section">
+  <div class="skills-container">
+    <h2 class="section-title" id="Skills-id">Skills<span class="purple-dot">.</span></h2>
+
+    <div class="skills-grid">
+      <!-- Web Design -->
+      <div class="skill-category">
+        <h3>Web Design</h3>
+        <ul>
+          <li>UI/UX Design</li>
+          <li>Responsive Design</li>
+          <li>Wireframing</li>
+          <li>User Research</li>
+        </ul>
+      </div>
+
+      <!-- Frontend -->
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <ul>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Next.js</li>
+          <li>CSS3</li>
+        </ul>
+      </div>
+
+      <!-- Backend -->
+      <div class="skill-category">
+        <h3>Backend</h3>
+        <ul>
+          <li>Node.js</li>
+          <li>MongoDB</li>
+          <li>Express.js</li>
+          <li>Vercel</li>
+        </ul>
+      </div>
+
+      <!-- Soft Skills -->
+      <div class="skill-category">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Effective communication</li>
+          <li>Collaboration</li>
+          <li>Commitment</li>
+          <li>Leadership</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+
+</html>
